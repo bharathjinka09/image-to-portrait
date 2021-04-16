@@ -9,8 +9,8 @@ function loadFile(event) {
 
 // Taking a screenshot
 
-document.getElementById("download-btn").addEventListener("click", function () {
-    html2canvas(document.getElementById("portrait")).then(function (canvas) {
-        document.getElementById("output").appendChild(canvas);
-    });
-});
+// document.getElementById("download-btn").addEventListener("click", function () {
+//     html2canvas(document.getElementById("portrait")).then(function (canvas) {
+//         document.getElementById("output").appendChild(canvas);
+//     });
+// });
